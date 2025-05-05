@@ -15,9 +15,9 @@ def just_function(name):
     return name
 
 print(just_function('Алихан'))
-print(just_function('Айша'))
-print(just_function('Айша'))
-print(just_function('Айша'))
+print(just_function('Асланбек'))
+print(just_function('Илисхан'))
+print(just_function('Хадижат'))
 
 '''Создай декоратор @auth_required, который:
 Запрашивает у пользователя логин и пароль перед вызовом функции.
