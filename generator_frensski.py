@@ -3,15 +3,15 @@
 Проходит по строке и возвращает только гласные буквы.
 Пример: "Python is awesome" → o, i, a, e, o, e.'''
 
-# words = ('a', 'e', 'i', 'o')
-#
-# def generator_word(text):
-#     for i in text:
-#         if i in words:
-#             yield i
-#
-# for i in generator_word('Python is awesome'):
-#     print(i)
+words = ('a', 'e', 'i', 'o')
+
+def generator_word(text):
+    for i in text:
+        if i in words:
+            yield i
+
+for i in generator_word('Python is awesome'):
+    print(i)
 
 '''Задание 7 - Б:
 Напиши генератор, который:
